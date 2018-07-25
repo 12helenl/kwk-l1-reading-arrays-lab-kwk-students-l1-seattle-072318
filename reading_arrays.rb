@@ -1,4 +1,4 @@
-students = [
+STUDENT_NAMES = [
   "Adele",
   "Beyoncé",
   "Cardi B",
@@ -7,33 +7,35 @@ students = [
   "Rihanna"
 ]
 
-def first_student_by_index("Adele","Beyoncé","Cardi B","Lady Gaga","Nicki Minaj","Rihanna")
-  puts students[0]
+def first_student_by_index
+  puts STUDENT_NAMES[0]
   # Write a solution that returns the first student in the array student_names
 end
-first_student_by_index("Adele","Beyoncé","Cardi B","Lady Gaga","Nicki Minaj","Rihanna")
+first_student_by_index
 
-def fourth_student_by_index("Adele","Beyoncé","Cardi B","Lady Gaga","Nicki Minaj","Rihanna")
-  puts students [3]# Write a solution that returns the first student in the array student_names
+def fourth_student_by_index
+  puts STUDENT_NAMES[3]# Write a solution that returns the first student in the array student_names
 end
-fourth_student_by_index("Adele","Beyoncé","Cardi B","Lady Gaga","Nicki Minaj","Rihanna")
-def last_student_by_index("Adele","Beyoncé","Cardi B","Lady Gaga","Nicki Minaj","Rihanna")
-  puts students[5]
+fourth_student_by_index
+def last_student_by_index
+  puts STUDENT_NAMES[5]
   # Write a solution that returns the first student in the array student_names
 end
-last_student_by_index("Adele","Beyoncé","Cardi B","Lady Gaga","Nicki Minaj","Rihanna")
-def first_student_by_method("Adele","Beyoncé","Cardi B","Lady Gaga","Nicki Minaj","Rihanna")
-  puts students.first
+last_student_by_index
+def first_student_by_method
+  puts STUDENT_NAMES.first
   # Write a solution that returns the first student using the built in .first method
 end
-first_student_by_index("Adele","Beyoncé","Cardi B","Lady Gaga","Nicki Minaj","Rihanna")
-def last_student_by_method("Adele","Beyoncé","Cardi B","Lady Gaga","Nicki Minaj","Rihanna")
-  puts students.last
+first_student_by_index
+def last_student_by_method
+  puts STUDENT_NAMES.last
   # Write a solution that returns the first student using the built in .last method
 end
-last_student_by_index("Adele","Beyoncé","Cardi B","Lady Gaga","Nicki Minaj","Rihanna")
-def first_second_and_third_students("Adele","Beyoncé","Cardi B","Lady Gaga","Nicki Minaj","Rihanna")
-  puts students[1,2,3]
+last_student_by_index
+def first_second_and_third_students
+  puts STUDENT_NAMES[0]
+  puts STUDENT_NAMES[1]
+  puts STUDENT_NAMES[2]
   # Write a solution that returns the first, second and third students
 end
-first_second_and_third_students("Adele","Beyoncé","Cardi B","Lady Gaga","Nicki Minaj","Rihanna")
+first_second_and_third_students
